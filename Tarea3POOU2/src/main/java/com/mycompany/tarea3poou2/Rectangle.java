@@ -3,7 +3,7 @@ package com.mycompany.tarea3poou2;
 
 public class Rectangle {
     
-     double width; 
+    double width; 
     double length;
     double area;
     double perimeter;
