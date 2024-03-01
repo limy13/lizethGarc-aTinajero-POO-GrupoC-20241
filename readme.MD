@@ -1,4 +1,4 @@
-# Tareas 6 Unidad 2
+# Tarea 6 Unidad 2
 
 - Se crearon 2 constructores, uno que reciba name, stock y price y otro que solo reciba name y price, esto para inicializar los atributos.
 - Se creó una clase producto con los atributos name, stock y price, los cuales son privados.
