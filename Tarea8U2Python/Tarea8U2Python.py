@@ -1,8 +1,13 @@
-class Tarea8U2Python: 
+from BookShop import BookShop
+from User import User
+from Books import Books
 
-    book_shop = BookShop()
+book_shop = BookShop()
+user = User()
+book = Books()
+band = True
 
-    while True:
+while band == True:
         print("\n------ Welcome ------\n")
         print("What do you want to do?\n")
         print("1. Add user.\n2. Add book.\n3. Users.\n4. Books.\n5. Rent a book.\n" +
