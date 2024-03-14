@@ -1,5 +1,7 @@
 # Tarea 7 Unidad 2 POO
 
+Tarea 7 en java
+
 Se crearon 3 clases: Employee, BankAccount y Bank.
 
 Estas clases están conectadas de tal manera que la clase Employee resguarda la información de cada empleado como
