@@ -46,3 +46,5 @@ while band == True:
             book_shop.show_rented_books()
         elif x == 8:
             book_shop.show_unrented_books()
+        else:
+            band = false    
