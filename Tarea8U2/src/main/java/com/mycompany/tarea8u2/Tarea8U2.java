@@ -60,7 +60,7 @@ public class Tarea8U2 {
                     break;
                     
                 case 5:
-                    System.out.println("User ID: ");
+                    System.out.print("User ID: ");
                     userId = read1.nextLine();
                     if (bookShop.usersPurchased(userId) == true){
                         System.out.print("Book ID: ");
