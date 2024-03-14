@@ -18,7 +18,7 @@ class BookShop:
 
     def show_info_users(self):
         for x, user in enumerate(self.users, 1):
-            print("---- User", x, "----")
+            print("\n---- User", x, "----")
             print(user.user_info())
 
     def show_info_books(self):
@@ -48,7 +48,7 @@ class BookShop:
 
     def show_unrented_books(self):
         for x, book in enumerate(self.unrented_books, 1):
-            print("---- Book", x, "----")
+            print("\n---- Book", x, "----")
             print(book.book_info())
 
     def users_purchased(self, user_id):
@@ -60,10 +60,10 @@ class BookShop:
 
     def show_rented_books(self):
         for x, book in enumerate(self.rented_books, 1):
-            print("---- Book", x, "----")
+            print("\n---- Book", x, "----")
             print(book.book_info())
 
     def show_user_purchased(self):
         for x, user in enumerate(self.users_purchased, 1):
-            print("---- User", x, "----")
+            print("\n---- User", x, "----")
             print(user.user_info())
