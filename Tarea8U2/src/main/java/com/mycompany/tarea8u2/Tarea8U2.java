@@ -71,9 +71,6 @@ public class Tarea8U2 {
                             System.out.println("\nPurchased successful");
                         }
                     }
-                   
-                    // set de esto con su objeto usuario
-                    // quw regrese un mensaje de renta exitosa
                     break;
                     
                 case 6:
