@@ -16,8 +16,9 @@ employee3.add_account(74943990, 'C')
 employees.append(employee3)
 
 bank = Bank()
+band = True
 
-while True:
+while band == True:
         print("\n--- Welcome ---\n")
         print("What do you want to do?\n")
         print("1. Employees information.")
@@ -52,4 +53,4 @@ while True:
             break
 
         else:
-            print("Invalid choice. Please enter a valid option.")
+            band = false
