@@ -49,4 +49,4 @@ while band == True:
             bank.consult_account(account_number)
                 
         else:
-            band = false
+            band = False
