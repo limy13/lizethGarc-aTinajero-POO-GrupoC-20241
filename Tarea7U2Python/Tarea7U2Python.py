@@ -47,10 +47,6 @@ while band == True:
         elif choice == 4:
             account_number = int(input("\nEnter the account number to consult: "))
             bank.consult_account(account_number)
-
-        elif choice == 5:
-            print("Exiting...")
-            break
-
+                
         else:
             band = false
