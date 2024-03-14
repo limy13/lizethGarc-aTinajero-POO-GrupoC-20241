@@ -1,25 +1,23 @@
-class Tarea7U2Python:
+from Employee import Employee
+from Bank import Bank
 
-    employees = []
+employees = []
 
-    # Employee 1
-    employee1 = Employee("Mariana Esteves", 25, 7000, 759497490, 'A')
-    employee1.add_account(759497490, 'A')
-    employees.append(employee1)
+employee1 = Employee("Mariana Esteves", 25, 7000, 759497490, 'A')
+employee1.add_account(759497490, 'A')
+employees.append(employee1)
 
-    # Employee 2
-    employee2 = Employee("Luis Rodriguez", 31, 12500.43, 453688939, 'B')
-    employee2.add_account(453688939, 'B')
-    employees.append(employee2)
+employee2 = Employee("Luis Rodriguez", 31, 12500.43, 453688939, 'B')
+employee2.add_account(453688939, 'B')
+employees.append(employee2)
 
-    # Employee 3
-    employee3 = Employee("Elizabeth Castro", 40, 15000.87, 74943990, 'C')
-    employee3.add_account(74943990, 'C')
-    employees.append(employee3)
+employee3 = Employee("Elizabeth Castro", 40, 15000.87, 74943990, 'C')
+employee3.add_account(74943990, 'C')
+employees.append(employee3)
 
-    bank = Bank()
+bank = Bank()
 
-    while True:
+while True:
         print("\n--- Welcome ---\n")
         print("What do you want to do?\n")
         print("1. Employees information.")
