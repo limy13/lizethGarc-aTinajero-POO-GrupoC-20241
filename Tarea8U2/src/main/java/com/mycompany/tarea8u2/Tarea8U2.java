@@ -40,11 +40,11 @@ public class Tarea8U2 {
                     break;          
                  
                 case 2:
-                    System.out.print("Name");
+                    System.out.print("\nName: ");
                     name = read1.nextLine();
-                    System.out.println("Author: ");
+                    System.out.print("Author: ");
                     author = read1.nextLine();
-                    System.out.println("Price: ");
+                    System.out.print("Price: ");
                     price = read3.nextDouble();
                     book = new Books (name, author, price);
                     book.createBookId();
@@ -60,15 +60,15 @@ public class Tarea8U2 {
                     break;
                     
                 case 5:
-                    book.showid();
-                    System.out.print("Book ID: ");
-                    bookId = read1.nextLine();
-                    if (book.rentBook(bookId) == true){
-                        System.out.println("User ID: ");
-                        userId = read1.nextLine();
-                        if (user.rentBook(userId) == true){
-                            bookShop.rentedBooks(bookId);
-                            bookShop.usersPurchased(userId);
+                    System.out.println("User ID: ");
+                    userId = read1.nextLine();
+                    if (bookShop.usersPurchased(userId) == true){
+                        System.out.print("Book ID: ");
+                        bookId = read1.nextLine();  
+                        if (bookShop.rentedBooks(bookId) == true){
+                            bookShop.addRentedBook(bookId);
+                            bookShop.addUsersPurchases(userId);
+                            System.out.println("\nPurchased successful");
                         }
                     }
                    
@@ -77,6 +77,7 @@ public class Tarea8U2 {
                     break;
                     
                 case 6:
+                    bookShop.showUserPurchased();
                     break;
                     
                 case 7: 
@@ -84,6 +85,7 @@ public class Tarea8U2 {
                     break;
                     
                 case 8:
+                    bookShop.showUnrentedBooks();
                     break;
                     
                 default:

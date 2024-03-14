@@ -41,22 +41,9 @@ public class User {
             }
         }
     }
-
-    public boolean rentBook(String userId){
-        boolean band = false, band2 = false;
-        for (String i: id){
-            if (i.equalsIgnoreCase(userId) == true){
-                band = true;
-                }
-        }
-        if (band != true){
-            System.out.println("\nThe user doesn't exist");
-        }
-        return band;
-    }    
             
     public String userInfo(){
-        return c = String.format("Name: %s\n Address: %s\n", name, address + "\nPhone: " + phone + "\n" + "User ID: " + y);
+        return c = String.format("\n8Name: %s\nAddress: %s\n", name, address + "\nPhone: " + phone + "\n" + "User ID: " + y);
     }
 
 } 

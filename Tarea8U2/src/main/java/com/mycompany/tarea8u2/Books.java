@@ -43,24 +43,7 @@ public class Books {
         }
     }
 
-    public boolean rentBook(String bookId){
-        boolean band = false, band2 = true;
-        for (String i: id){
-            if (i.equalsIgnoreCase(bookId) == true){
-                band = true;
-            }
-        }
-        return band;
-    }
-
     public String bookInfo(){
-        return y = String.format("Name: %s\n Author: %s\n Price: %f\n Book ID: %s", name, author, price, y);
+        return y = String.format("\nName: %s\nAuthor: %s\nPrice: %f\nBook ID: %s", name, author, price, y);
     }
-
-    public void showid(){
-        for(String i : id){
-            System.out.println(i);
-        }
-    }
-
 }
